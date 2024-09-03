@@ -25,7 +25,7 @@ describe('CalculatorComponent', () => {
 
   it('should calculate sums correctly', () => {
 
-    component.calculatorForm.get('firstInput').setValue(10);
+    component.calculatorForm.get('firstInput').setValue(1);
     component.calculatorForm.get('secondInput').setValue(2);
     component.calculatorForm.get('operator').setValue('+');
     component.onSubmit();
