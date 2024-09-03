@@ -36,7 +36,7 @@ describe('CalculatorComponent', () => {
 
   it('should calculate subtractions correctly', () => {
 
-    component.calculatorForm.get('firstInput').setValue(11);
+    component.calculatorForm.get('firstInput').setValue(1);
     component.calculatorForm.get('secondInput').setValue(2);
     component.calculatorForm.get('operator').setValue('-');
     component.onSubmit();
